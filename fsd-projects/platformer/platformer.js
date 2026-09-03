@@ -1,4 +1,3 @@
-const { createRef } = require("react");
 
 $(function () {
   // initialize canvas and context when able to
@@ -33,6 +32,7 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
+
      createPlatform(100, 600, 200, 10, "blue");
      createPlatform(500, 670, 25, 10, "purple");
      createPlatform(100, 500, 100, 10, "orange");
@@ -40,10 +40,12 @@ $(function () {
      createPlatform(500, 300, 25, 10, "red");
      createPlatform(700, 200, 25, 10, "green");
      createPlatform(900, 300, 100, 10, "yellow");
-     createPlatform(1200, 400, 300, 10,"skyblue");
+     createPlatform(1200, 400, 110, 10,"skyblue");
 
 
     // TODO 3 - Create Collectables
+    createCollectable("grace", 900, 267);
+    createCollectable("diamond", 1200, 367);
 
 
 
